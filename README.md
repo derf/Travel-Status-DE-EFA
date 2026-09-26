@@ -2,7 +2,7 @@
 
 **efa-m** is a commandline client and Perl module for EFA public transit departure
 interfaces such as [efa.vrr.de](https://efa.vrr.de/vrr/XSLT_DM_REQUEST). See
-the [Travel::Status::DE::VRR
+the [Travel::Status::DE::EFA
 homepage](https://finalrewind.org/projects/Travel-Status-DE-VRR/) for details.
 
 ## Installation
@@ -48,7 +48,7 @@ use it you will have to trust me not to screw up your system with bogus
 packages. Also, note that the packages are not part of the official Debian
 repository and are not covered by its quality assurance process.
 
-To set up the repository and install the latest Travel::Status::DE::VRR
+To set up the repository and install the latest Travel::Status::DE::EFA
 release, run:
 
 ```
@@ -59,9 +59,9 @@ sudo apt install libtravel-status-de-vrr-perl
 ```
 
 Afterwards, `apt update` and `apt upgrade` will automatically install new
-Travel::Status::DE::VRR releases.
+Travel::Status::DE::EFA releases.
 
-Uninstallation of Travel::Status::DE::VRR works as usual:
+Uninstallation of Travel::Status::DE::EFA works as usual:
 
 ```
 sudo apt remove libtravel-status-de-vrr-perl
@@ -76,7 +76,7 @@ sudo rm /etc/apt/trusted.gpg.d/finalrewind.asc \
 
 ### Installation from CPAN
 
-Travel::Status::DE::VRR releases are published on the Comprehensive Perl
+Travel::Status::DE::EFA releases are published on the Comprehensive Perl
 Archive Network (CPAN) and can be installed using standard Perl module tools
 such as `cpanminus`.
 
@@ -179,7 +179,7 @@ Documentation is not available in this image. Please refer to the
 
 You may report issues and contribute bugfixes at
 <https://codeberg.org/derf/Travel-Status-DE-EFA> or
-<https://github.com/derf/Travel-Status-DE-VRR> – use whichever platform
+<https://github.com/derf/Travel-Status-DE-EFA> – use whichever platform
 works best for you.
 Please get in touch before starting work on more invasive changes.
 

@@ -42,7 +42,7 @@ my %efa_instance = (
 		tls_verify => 0,
 	},
 	BEG => {
-		url  => 'https://bahnland-bayern.de/efa',
+		url  => 'https://mobile.defas-fgi.de/beg',
 		name => 'Bayerische Eisenbahngesellschaft',
 	},
 	BSVG => {
